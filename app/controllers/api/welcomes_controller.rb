@@ -6,5 +6,6 @@ class Api::WelcomesController < ApplicationController
 
   def about
     @fave = "Python"
+    render "about.json.jb"
   end
 end
